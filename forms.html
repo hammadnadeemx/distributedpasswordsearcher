@@ -1,0 +1,11 @@
+<!-- forms.html -->
+{{if .Success}}
+	<h1>The password was {{.Pass}}</h1>
+{{else}}
+	<h1>Welcome to Hammads project.</h1>
+	<form method="POST">
+		<label>Enter text to search in database:</label><br />
+		<input type="text" name="pswd"><br />
+		<input type="submit">
+	</form>
+{{end}}
